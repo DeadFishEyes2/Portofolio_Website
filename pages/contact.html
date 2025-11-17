@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Alin Bratu</title>
+    <link rel="stylesheet" href="../style/contact_style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-box">BAT</div>
+                <span class="logo-text">Alin-Teodor Bratu</span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" onclick="toggleMenu()">☰</button>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="page-header">
+                <h1 class="page-title">Get in <span class="highlight">Touch</span></h1>
+                <p class="page-subtitle">
+                    Have a project in mind or want to discuss AI and finance? Let's connect!
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">✉️</div>
+                        <h3>Email</h3>
+                        <a href="mailto:bratualinteodor@gmail.com">bratualinteodor@gmail.com</a>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">📁</div>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/DeadFishEyes2" target="_blank" rel="noopener noreferrer">github.com/alinbratu</a>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">💼</div>
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/alin-teodor-bratu-172375254/" target="_blank" rel="noopener noreferrer">linkedin.com/in/alin-bratu</a>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">📱</div>
+                        <h3>Phone</h3>
+                        <a href="tel:+40773307234">+40 773 307 234</a>
+                    </div>
+                </div>
+
+                <div class="contact-form-card">
+                    <h2 class="form-title">Send me a message</h2>
+                    <form action="mailto:bratualinteodor@gmail.com" method="get" enctype="text/plain">
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input 
+                                type="text" 
+                                id="subject" 
+                                name="subject" 
+                                placeholder="What's this about?" 
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="body">Message</label>
+                            <textarea 
+                                id="body" 
+                                name="body" 
+                                placeholder="Tell me about your project or idea..." 
+                                required
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                            <span>✉️</span>
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div>© 2025 Alin-Teodor Bratu.</div>
+            <div class="footer-links">
+                <a href="https://github.com/DeadFishEyes2" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/alin-teodor-bratu-172375254/" target="_blank">LinkedIn</a>
+                <a href="mailto:bratualinteodor@gmail.com">Email</a>
+            </div>
+        </div>
+    </footer>
+    <script src="../nav_bar.js"></script>
+</body>
+</html>

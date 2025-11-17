@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Alin Bratu</title>
+    <link rel="stylesheet" href="../style/portfolio_style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-box">BAT</div>
+                <span class="logo-text">Alin-Teodor Bratu</span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" onclick="toggleMenu()">☰</button>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="page-header">
+                <h1 class="page-title">My <span class="highlight">Portfolio</span></h1>
+                <p class="page-subtitle">Projects that showcase my passion for AI and systems programming</p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">cklearn</h3>
+                        <span class="project-badge badge-ml">ML Library</span>
+                    </div>
+                    <p class="project-description">
+                        A comprehensive machine learning library built from scratch in C, featuring implementations 
+                        of K-means, KNN, Linear Regression, and the Local Outlier Factor algorithm for anomaly detection. 
+                        Includes data processing and visualization capabilities for CSV data.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">C</span>
+                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">Data Visualization</span>
+                    </div>
+                    <p class="project-date">Jul. 2025 – Oct. 2025</p>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">CLI Tool</h3>
+                        <span class="project-badge badge-systems">Systems</span>
+                    </div>
+                    <p class="project-description">
+                        Advanced command-line interface tool for file system operations, featuring file listing, 
+                        path searching, and word comparison with flexible flag and option handling. Includes 
+                        automated testing suite built with Bash scripts.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">C</span>
+                        <span class="tech-tag">Bash</span>
+                        <span class="tech-tag">Systems Programming</span>
+                    </div>
+                    <p class="project-date">Feb. 2025 – Jun. 2025</p>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Government Automation System</h3>
+                        <span class="project-badge badge-web">Web Dev</span>
+                    </div>
+                    <p class="project-description">
+                        Developed web automation solutions for a government institution using Angular framework. 
+                        Created an intelligent chatbot for client data collection and built custom web pages to 
+                        streamline operations and reduce manual processes.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Angular</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Agile</span>
+                    </div>
+                    <p class="project-date">May 2023 – Sep. 2023 at Soft 31</p>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Finance + DSA Teaching Projects</h3>
+                        <span class="project-badge badge-education">Education</span>
+                    </div>
+                    <p class="project-description">
+                        Created innovative coding problems and projects that merge financial concepts with 
+                        data structures and algorithms for university students. Designed assignments that help 
+                        students understand practical applications of algorithms in financial markets and trading.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">C</span>
+                        <span class="tech-tag">Go</span>
+                        <span class="tech-tag">Finance + DSA</span>
+                    </div>
+                    <p class="project-date">Oct. 2025 – Present</p>
+                </div>
+            </div>
+
+            <div class="research-section">
+                <h2 class="research-title">Research</h2>
+                
+                <div class="research-item">
+                    <h3 class="research-item-title">Skiplist Search Complexity Generalization</h3>
+                    <p class="research-description">
+                        Mathematically generalized skiplist search complexity from geometric distributions to any 
+                        distribution using probability theory. This breakthrough enables numerical optimization for 
+                        unique use cases, allowing developers to fine-tune skip list performance based on their 
+                        specific data distribution patterns. The work provides a theoretical framework for understanding 
+                        skip list behavior across different probability distributions.
+                    </p>
+                </div>
+
+                <div class="research-item">
+                    <span class="status-badge">In Progress</span>
+                    <h3 class="research-item-title">Approximate Nearest Neighbor with Double Linked Skiplists</h3>
+                    <p class="research-description">
+                        Proposing a novel approximate nearest neighbor algorithm that leverages doubly linked skiplists 
+                        to form random data clusters. This approach significantly reduces the search space while maintaining 
+                        high accuracy, achieving an average-case time complexity of O(log n). The algorithm shows promising 
+                        results for high-dimensional data and could have applications in recommendation systems, image 
+                        retrieval, and machine learning feature matching.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div>© 2025 Alin-Teodor Bratu.</div>
+            <div class="footer-links">
+                <a href="https://github.com/DeadFishEyes2" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/alin-teodor-bratu-172375254/" target="_blank">LinkedIn</a>
+                <a href="mailto:bratualinteodor@gmail.com">Email</a>
+            </div>
+        </div>
+    </footer>
+    <script src="../nav_bar.js"></script>
+</body>
+</html>
