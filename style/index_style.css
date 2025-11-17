@@ -96,6 +96,10 @@ nav {
     cursor: pointer;
 }
 
+.placeholder{
+    flex: auto;
+}
+
 .hero {
     padding-top: 80px;
     position: relative;
