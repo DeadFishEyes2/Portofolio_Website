@@ -96,10 +96,6 @@ nav {
     cursor: pointer;
 }
 
-.placeholder{
-    flex: auto;
-}
-
 .hero {
     padding-top: 80px;
     position: relative;
@@ -189,6 +185,10 @@ nav {
     font-size: 1.125rem;
     line-height: 1.7;
     margin: 2rem 0;
+}
+
+.placeholder{
+    flex: center;
 }
 
 .cta-buttons {
